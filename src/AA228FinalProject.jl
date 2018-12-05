@@ -35,11 +35,14 @@ export
     wrap_to_pi,
     ContinuousRoombaStateSpace,
     DiscreteRoombaStateSpace,
-    render
+    render,
+    U_location
+    
 
 include("line_segment_utils.jl")
 include("env_room.jl")
 include("roomba_env.jl")
 include("filtering.jl")
+include("utils.jl")
 
 end
