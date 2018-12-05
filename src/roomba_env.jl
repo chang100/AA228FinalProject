@@ -66,8 +66,8 @@ Define the Roomba MDP.
     dt::Float64     = 0.5   # s
     contact_pen::Float64 = -1.0 
     time_pen::Float64 = -0.1
-    goal_reward::Float64 = 10
-    stairs_penalty::Float64 = -10
+    goal_reward::Float64 = 100
+    stairs_penalty::Float64 = -100
     config::Int = 1
     room::Room  = Room(configuration=config)
     sspace::SS = ContinuousRoombaStateSpace()
